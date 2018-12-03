@@ -47,7 +47,7 @@ body {
 .wrapper {
     max-width: 1110px;
     margin: 0 auto;
-    padding: 0;
+    /* padding: 0px 5px 0px 5px; */
 }
 
 .project-title {
@@ -55,15 +55,12 @@ body {
     color: #1D2636;
 }
 
-ul {
-    padding-inline-start: 0px;
-}
-
 .grid-list {
     width: 100%;
     display: inline-grid;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    margin: 0 auto;
 }
 .grid-list img {
     width: 95%;
@@ -71,6 +68,7 @@ ul {
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 20px;
+    padding: 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
