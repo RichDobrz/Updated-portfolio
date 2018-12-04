@@ -86,8 +86,7 @@ body {
     height: 93%;
     opacity: 0;
     transition: .5s ease;
-    background-color: aqua;
-    color: black;
+    background-color: #1D2636;
 }
 
 .project-container:hover .overlay {
@@ -100,8 +99,25 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0 auto;
+    text-align: center;
 }
 
+.proj-title {
+    margin-bottom: 20%;
+}
+
+.code-link {
+    text-decoration: none;
+    color: #F4F0EA;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.site-link {
+    text-decoration: none;
+    color: #F4F0EA;
+}
 /* .hero {
     width: 100vw;
     height: 100vh;
