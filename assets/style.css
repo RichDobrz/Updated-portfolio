@@ -1,14 +1,32 @@
 body {
-    margin: 0;
+    /* margin: 0; */
 
     max-width: 100%;
     background-color: #F4F0EA;
     color: #F4F0EA;
     font-family: 'Fjalla One', sans-serif;
-    line-height: 2em;
+    line-height: 0em;
 }
 
-header {
+.hello {
+    font-size: 5em;
+    color: #19647E;
+}
+
+.my-name {
+    color: #19647E;
+    font-size: 3em;
+}
+
+.main {
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* header {
     width: 100%;
     background-color: #1D2636;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -264,4 +282,4 @@ footer {
     nav li {
         text-align: center;
     }
-}
+} */
