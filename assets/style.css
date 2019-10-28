@@ -15,6 +15,28 @@ header {
     top: 0;
 }
 
+h2  {
+    color: #1D2636;
+    text-decoration-line: underline;
+}
+
+.about-app {
+    color: #19647E;
+    font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.tech-used {
+    color: #1D2636;
+} 
+
+.view-code {
+    margin-right: 2em;
+}
+
 .nav-container {
     width: 1110px;
     margin: 0 auto;
@@ -79,31 +101,43 @@ nav li {
 .project-title {
     text-align: center;
     color: #1D2636;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .grid-list {
-    width: 100%;
-    display: inline-grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    /* width: 100%; */
+    /* display: inline-grid;
+    grid-gap: 10px; */
+    /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
     margin: 0 auto;
 }
+
 .grid-list img {
-    width: 95%;
+    width: 500px;
     height: 300px;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin: 0 auto;
     margin-bottom: 20px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    /* padding: 10px; */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hackathon-title {
+    display: inline-block;
 }
 
 .project-container {
     position: relative;
+    display: flex;
+    margin-top: 5%;
 }
 
-.overlay {
+.proj-img {
+    display: flex;
+}
+
+
+/* .overlay {
     position: absolute;
     left: 0;
     right: 0;
@@ -114,7 +148,7 @@ nav li {
     opacity: 0;
     transition: .5s ease;
     background-color: #1D2636;
-}
+} */
 
 .project-container:hover .overlay {
     opacity: 1;
@@ -131,7 +165,10 @@ nav li {
 }
 
 .proj-title {
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
+    /* display: flex; */
+    text-align: center;
+    width: 75%;
 }
 
 .code-link {
