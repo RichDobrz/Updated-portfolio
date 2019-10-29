@@ -188,6 +188,7 @@ footer {
 
     .proj-title {
         width: 100%;
+        margin-bottom: 10%;
     }
 
     .banner {
@@ -220,6 +221,7 @@ footer {
 
     .proj-title {
         width: 100%;
+        margin-bottom: 10%;
     }
 
     .nav-container {
@@ -260,6 +262,7 @@ footer {
 
     .proj-title {
         width: 100%;
+        margin-bottom: 10%;
     }
     
     .name {
@@ -320,6 +323,10 @@ footer {
         display: flex;
         justify-content: center;
         width: 360px;
+    }
+
+    .proj-title {
+        margin-bottom: 10%;
     }
 
     .grid-list img {
